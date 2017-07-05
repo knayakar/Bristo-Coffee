@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+
+body {
+    font-family: 'Acme', sans-serif;
+    position: relative;
+}
+
+.navbar {
+    padding: 8px;
+}
+
+.navbar-header > .navbar-brand {
+    font-family: 'Shrikhand', cursive;
+    font-size: 30px;
+    color: saddlebrown;
+    float: left;
+}
+
+.nav > li {
+    font-size: 20px;
+    margin-left: 300px;
+    margin-right: -300px;
+}
+
+/*
+.nav > .home {
+    border-radius: 15px;
+    background-color: black;
+}
+*/
+
+.carousel-inner > .item > img{
+    width: 2000px;
+    height: 800px;
+}
+
+.carousel-caption > h1 {
+    margin-top: -100px;
+}
+
+.carousel-caption > h1 > strong {
+    color: saddlebrown;
+}
+
+.menu1 {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.menu2 {
+    text-align: center;
+    padding-top: -15px;
+}
+
+.row {
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.col-lg-4 {
+    text-align: center;
+    padding: 30px;
+}
+
+.parallax1 {
+    margin-top: 20px;
+    height: 400px;
+    
+} 
+
+.freeMenu > h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.freeMenu {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.dairyMenu > h2 {
+    text-align: center;
+    padding: 10px;
+    font-size: 40px;
+}
+
+.dairyMenu {
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.parallax2 {
+    margin-top: 20px;
+    height: 500px;
+    
+} 
+
+.coffeeList {
+    margin-top: 130px;
+    padding: 40px;
+}
+
+.cmargin{
+    text-align: center;
+    padding: 20px;
+    margin-top: 220px;
+}
+.coffeeList{
+    text-align: center;
+    padding: 20px;
+}
+
+.team > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.col-lg-3 {
+    text-align: center;
+    padding: 30px;
+}
+
+.col-lg-3 > h4 {
+    font-size: 25px;
+    text-align: center;
+}
+
+.col-lg-3 > h5 {
+    padding: 15px;
+    font-size: 18px;
+    text-align: center;
+}
