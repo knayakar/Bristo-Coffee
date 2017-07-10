@@ -1,3 +1,5 @@
+// animation for images starts here
+
 $(function() {
    $(".mcoffee").hover(function() {
        $(".mcoffee").addClass('animated infinite tada');
@@ -81,3 +83,5 @@ $(function() {
        $(".team4").removeClass('animated infinite swing');
    }) ;
 });
+
+// animation for images ends here

@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lobster');
-@import url('https://fonts.googleapis.com/css?family=Acme');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:700');
 
 body {
-    font-family: 'Acme', sans-serif;
+    font-family: 'Merriweather', serif;
     position: relative;
 }
 
@@ -23,16 +23,9 @@ body {
     margin-right: -300px;
 }
 
-/*
-.nav > .home {
-    border-radius: 15px;
-    background-color: black;
-}
-*/
-
 .carousel-inner > .item > img{
-    width: 2000px;
-    height: 800px;
+    width: 100%;
+    height: 900px;
 }
 
 .carousel-caption > h1 {
@@ -135,3 +128,63 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
+.parallax3 {
+    margin-top: 20px;
+    height: 450px;
+    
+}
+
+.contact > h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+.contact > .row > .col-lg-8 {
+    text-align: center;
+    padding: 40px;
+    margin-top: 20px;
+} 
+
+.contact > .row > .col-lg-8 > h2 {
+    font-size: 40px;
+} 
+
+.contact > .row > .col-lg-8 > h5 {
+    font-size: 30px;
+    text-align: center;
+}
+
+
+.parallax4 {
+    height: 300px;
+}
+
+hr {
+    width: 60%;
+    padding: 20px;
+}
+
+.footer > h4 {
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-top: -70px;
+}
+
+.footer > .row > .col-lg-4 {
+    width: 20%;
+    margin-left: 750px;
+    margin-top: -150px;
+}
+
+@media screen and (max-width: 850px) {
+    
+    .carousel-inner > .item > img{
+    width: 100%;
+    height: 500px;
+}
+    
+}
+ 
