@@ -13,7 +13,7 @@ body {
 .navbar-header > .navbar-brand {
     font-family: 'Shrikhand', cursive;
     font-size: 30px;
-    color: saddlebrown;
+    color: white;
     float: left;
 }
 
@@ -170,21 +170,55 @@ hr {
     text-align: center;
     color: black;
     font-size: 25px;
-    margin-top: -70px;
+    margin-top: 0px;
 }
 
-.footer > .row > .col-lg-4 {
-    width: 20%;
-    margin-left: 750px;
-    margin-top: -150px;
+.footer > .follow > ul  li {
+    display: inline;
+    font-size: 70px;
+    margin: 30px;
+}
+
+.footer > .follow > ul .facebook :visited {
+    color: black;
+}
+
+.footer > .follow > ul .twitter :visited {
+    color: black;
+}
+
+.footer > .follow > ul .github :visited {
+    color: black;
+}
+
+.footer > .follow > ul .facebook :hover {
+    color: #3c5a99;  
+}
+
+.footer > .follow > ul .twitter :hover {
+    color: #1da1f2;
+}
+
+.footer > .follow > ul .github :hover {
+    color: #24292e;
+}
+
+.footer > .follow {
+    margin-top: -160px;
+    text-align: center;
 }
 
 @media screen and (max-width: 850px) {
     
     .carousel-inner > .item > img{
-    width: 100%;
-    height: 500px;
-}
+        width: 100%;
+        height: 500px;
+    }
+    
+    .contact > .row > .col-lg-4 > img {
+        width: 350px;
+        height: 300px;
+    }
     
 }
  
