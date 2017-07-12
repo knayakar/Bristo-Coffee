@@ -216,8 +216,27 @@ hr {
     }
     
     .contact > .row > .col-lg-4 > img {
-        width: 350px;
-        height: 300px;
+        width: 340px;
+        height: 200px;
+    }
+    
+    .carousel-caption > h1 {
+        margin: 10px;
+        font-size: 18px;
+    }
+    
+    .footer > .follow > ul  li {
+        display: inline;
+        font-size: 55px;
+        margin: 30px;
+    }
+    
+    .footer > h4 {
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        margin-top: 0px;
     }
     
 }
