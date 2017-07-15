@@ -25,7 +25,8 @@ body {
 
 .carousel-inner > .item > img{
     width: 100%;
-    height: 900px;
+    height: 950px;
+    opacity: 0.82;
 }
 
 .carousel-caption > h1 {
@@ -34,6 +35,7 @@ body {
 
 .carousel-caption > h1 > strong {
     color: saddlebrown;
+    font-style: italic;
 }
 
 .menu1 {
