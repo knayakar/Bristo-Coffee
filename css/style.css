@@ -143,6 +143,11 @@ body {
     padding: 20px;
 }
 
+.contact > .row > .col-lg-4 > img {
+    width:600px;
+    height: 400px;    
+    }
+
 .contact > .row > .col-lg-8 {
     text-align: center;
     padding: 40px;
@@ -154,7 +159,7 @@ body {
 } 
 
 .contact > .row > .col-lg-8 > h5 {
-    font-size: 30px;
+    font-size: 1.5em;
     text-align: center;
 }
 
@@ -211,7 +216,7 @@ hr {
     text-align: center;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 600px) {
     
     .carousel-inner > .item > img{
         height: 420px;
@@ -223,11 +228,9 @@ hr {
     }
     
     .contact > .row > .col-lg-4 > img {
-        width: 340px;
-        height: 200px;
+        width: 420px;
+        height: 300px;
     }
-    
-    
     
     .footer > .follow > ul  li {
         display: inline;
@@ -245,3 +248,35 @@ hr {
     
 }
  
+@media screen and (max-width: 1750px) and (min-width: 600px) {
+    
+    .carousel-inner > .item > img{
+        height: 750px;
+    }
+    
+    .carousel-caption > h1 {
+        margin: 10px;
+        font-size: 32px;
+    }
+    
+    .contact > .row > .col-lg-4 > img {
+        width: 450px;
+        height: 300px;
+        margin-left: -35px;
+    }
+    
+    .footer > .follow > ul  li {
+        display: inline;
+        font-size: 55px;
+        margin: 30px;
+    }
+    
+    .footer > h4 {
+        padding: 5px;
+        text-align: center;
+        color: black;
+        font-size: 15px;
+        margin-top: 0px;
+    }
+    
+}
