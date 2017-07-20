@@ -4,6 +4,8 @@
 body {
     font-family: 'Merriweather', serif;
     position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 .navbar {
@@ -19,12 +21,11 @@ body {
 
 .nav > li {
     font-size: 20px;
-    margin-left: 300px;
-    margin-right: -300px;
 }
 
 .carousel-inner > .item > img{
     width: 100%;
+    min-width: 100%;
     height: 950px;
     opacity: 0.82;
 }
@@ -213,8 +214,12 @@ hr {
 @media screen and (max-width: 850px) {
     
     .carousel-inner > .item > img{
-        width: 100%;
-        height: 500px;
+        height: 420px;
+    }
+    
+    .carousel-caption > h1 {
+        margin: 10px;
+        font-size: 18px;
     }
     
     .contact > .row > .col-lg-4 > img {
@@ -222,10 +227,7 @@ hr {
         height: 200px;
     }
     
-    .carousel-caption > h1 {
-        margin: 10px;
-        font-size: 18px;
-    }
+    
     
     .footer > .follow > ul  li {
         display: inline;
