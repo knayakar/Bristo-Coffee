@@ -228,13 +228,13 @@ hr {
     }
     
     .contact > .row > .col-lg-4 > img {
-        width: 420px;
-        height: 300px;
+        width: 320px;
+        height: 200px;
     }
     
     .footer > .follow > ul  li {
         display: inline;
-        font-size: 55px;
+        font-size: 45px;
         margin: 30px;
     }
     
